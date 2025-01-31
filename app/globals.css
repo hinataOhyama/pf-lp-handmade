@@ -66,6 +66,12 @@ body {
   * {
     @apply border-border;
   }
+  html {
+    scroll-behavior: smooth;
+  }
+  :target {
+    scroll-margin-top: 80px;
+  }
   body {
     @apply bg-background text-foreground;
   }

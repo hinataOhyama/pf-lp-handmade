@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export const About = () => {
   return (
-    <section className="py-24 bg-white">
+    <section id="about" className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -33,7 +33,7 @@ export const About = () => {
             <Card>
               <CardContent className="p-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1505253716362-afaea1d3d1af?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/about-item01.jpg"
                   alt="Craftsmanship"
                   className="w-full h-48 object-cover mb-4"
                   width={800}
@@ -53,10 +53,10 @@ export const About = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <Card>
+            <Card className="h-full">
               <CardContent className="p-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="/about-item02.jpg"
                   alt="Materials"
                   className="w-full h-48 object-cover mb-4"
                   width={800}
@@ -79,7 +79,7 @@ export const About = () => {
             <Card>
               <CardContent className="p-6">
                 <Image
-                  src="https://images.unsplash.com/photo-1492707892479-7bc8d5a4ee93?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+                  src="about-item03.jpg"
                   alt="Design"
                   className="w-full h-48 object-cover mb-4"
                   width={800}
