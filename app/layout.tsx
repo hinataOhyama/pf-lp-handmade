@@ -4,7 +4,10 @@ import "./globals.css";
 import { Header } from "../components/layout/header";
 import { Footer } from "../components/layout/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Inter({
+  weight: ["300", "400", "500", "600", "700", "800", "900"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "手作り工房",

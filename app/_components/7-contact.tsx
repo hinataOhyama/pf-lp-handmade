@@ -8,7 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 
 export const Contact = () => {
   return (
-    <section className="py-24 bg-white">
+    <section id="contact" className="py-24 bg-white">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ y: 20, opacity: 0 }}

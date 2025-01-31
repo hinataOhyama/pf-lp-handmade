@@ -6,6 +6,7 @@ import { Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const navigation = [
   { name: "About", href: "#about" },
@@ -28,26 +29,27 @@ export const Header = () => {
 
   return (
     <header className="fixed w-full z-50 bg-white/80 backdrop-blur-sm">
-      <nav className="container mx-auto px-4 h-20 flex items-center justify-between">
-        <Link href="/" className="text-2xl font-light tracking-wider">
-          手作り工房
-        </Link>
-
-        <div className="hidden md:flex items-center space-x-8">
+      <nav className="container mx-auto px-4 h-20 grid grid-flow-col grid-cols-[1fr_1fr_1fr] lg:grid-cols-[1fr_auto_1fr] items-center justify-between lg:justify-start">
+        <div className="lg:flex items-center space-x-6">
           {navigation.map((item) => (
             <Link
               key={item.name}
               href={item.href}
-              className="text-gray-600 hover:text-gray-900 transition-colors"
+              className="hidden lg:block text-gray-600 hover:text-gray-900 transition-colors"
             >
               {item.name}
             </Link>
           ))}
-          <Button variant="secondary">予約する</Button>
         </div>
 
+        <Link href="/" className="text-2xl font-light tracking-wider justify-self-center grid-area-">
+          <Image src="/logo-transparent.png" alt="Handmade workshop" width={80} height={80} />
+        </Link>
+
+        <Button variant="secondary" className="justify-self-end hidden lg:block">予約する</Button>
+
         <Sheet open={open} onOpenChange={setOpen}>
-          <SheetTrigger asChild className="md:hidden">
+          <SheetTrigger asChild className="lg:hidden justify-self-end">
             <Button variant="ghost" size="icon">
               <Menu className="h-6 w-6" />
             </Button>

@@ -6,7 +6,7 @@ import { MapPin, Phone, Mail, Clock } from "lucide-react";
 
 export const Access = () => {
   return (
-    <section className="py-24 bg-gray-50">
+    <section id="access" className="py-24 bg-gray-50">
       <div className="container mx-auto px-4">
         <motion.div
           initial={{ y: 20, opacity: 0 }}
@@ -33,9 +33,9 @@ export const Access = () => {
                   <div>
                     <h3 className="font-light mb-2">住所</h3>
                     <p className="text-gray-600">
-                      〒859-5122
+                      〒530-0012
                       <br />
-                      長崎県平戸市明の川内町323番地2
+                      大阪府大阪市北区芝田1丁目1番4
                     </p>
                   </div>
                 </div>
@@ -94,4 +94,4 @@ export const Access = () => {
       </div>
     </section>
   );
-}
+};
