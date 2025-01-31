@@ -1,7 +1,8 @@
-import { About } from "./_components/about";
-import { Hero } from "./_components/hero";
-import { Products } from "./_components/products";
-import { Workshop } from "./_components/workshop";
+import { Hero } from "./_components/1-hero";
+import { About } from "./_components/2-about";
+import { Products } from "./_components/3-products";
+import { Workshop } from "./_components/4-workshop";
+import { News } from "./_components/5-news";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <About />
       <Products />
       <Workshop />
+      <News />
     </main>
   );
 }
