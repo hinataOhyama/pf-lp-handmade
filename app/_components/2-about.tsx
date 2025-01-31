@@ -53,7 +53,7 @@ export const About = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             viewport={{ once: true }}
           >
-            <Card>
+            <Card className="h-full">
               <CardContent className="p-6">
                 <Image
                   src="/about-item02.jpg"
