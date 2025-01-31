@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 1. 概要
 
-## Getting Started
+**プロジェクト名:** pf-lp-handmade
 
-First, run the development server:
+**自己紹介:**  
+氏名: 大山陽和太  
+得意な技術: React, Next.js, TypeScript
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+**ポートフォリオ概要:**  
+このアプリは、「手作り工房」のLPです。`React`と`TypeScript`を使用して構築されており、`Next.js`をフレームワークとして利用しています。ユーザー認証やデータ管理機能は備えておらず、レスポンシブなデザインで様々なデバイスに対応しています。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+**URL:** [https://pf-lp-handmade.vercel.app/](https://pf-lp-handmade.vercel.app/)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# 2. 開発技術
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**使用技術:**  
+- `HTML`
+- `CSS`
+- `TypeScript`
 
-## Learn More
+**ライブラリ/フレームワーク:**  
+- `React`
+- `Next.js`
+- `shadcn/ui`
+- `Framer Motion`
 
-To learn more about Next.js, take a look at the following resources:
+**ツール:**  
+- `Git`
+- `VSCode`
+- `Vercel`
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# 3. ポートフォリオ詳細
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+**概要:**  
+`Next.js`を利用して、手作り商品の魅力を伝えるLPを作成しました。`shadcn/ui`と`Framer Motion`を活用し、アクセシブルでアニメーション性の高いユーザーインターフェースを実現しています。
 
-## Deploy on Vercel
+**開発期間:**  
+2025年1月30日 ～ 2025年1月31日
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**工夫した点:**  
+- `Next.js v15`, `React v19`を使用し、最新の機能とパフォーマンスを追求。
+- 有名なUIライブラリである、`shadcn/ui`を選択し、カスタマイズ性とアクセシビリティを向上。
+- アニメーションを`Framer Motion`で実装し、ユーザー体験を豊かに。
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**フォルダ構成:**
+- **`app/`**
+  - Next.js のルーティングページ。
+  - **`_components/`**
+    - ページごとのコンポーネントを格納。
+
+- **`components/`**
+  - **`ui/`**
+    - 共通コンポーネントの格納。
+  - **`layout/`**
+    - 共通レイアウト関連のコンポーネントを格納。
+
+- **`lib/`**
+  - ユーティリティ関数やヘルパー関数を格納。
+
+- **`public/`**
+  - 静的ファイル（画像など）を格納。
