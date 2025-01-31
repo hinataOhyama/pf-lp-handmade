@@ -16,7 +16,7 @@ export const Products = () => {
     {
       id: 2,
       name: "陶器",
-      image: "https://images.unsplash.com/photo-1610701596007-11502861dcfa?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80",
+      image: "/products-item02.jpg",
       description: "日常使いに最適な、温かみのある陶器",
     },
     {

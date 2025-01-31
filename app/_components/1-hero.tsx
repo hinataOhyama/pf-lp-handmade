@@ -16,7 +16,7 @@ export const Hero = () => {
           <Image
             src="/hero-bg.jpg"
             alt="Hero"
-            objectFit="cover"
+            className="object-cover object-center"
             fill
           />
         </div>

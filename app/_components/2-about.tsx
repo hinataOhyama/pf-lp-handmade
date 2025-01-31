@@ -79,7 +79,7 @@ export const About = () => {
             <Card>
               <CardContent className="p-6">
                 <Image
-                  src="about-item03.jpg"
+                  src="/about-item03.jpg"
                   alt="Design"
                   className="w-full h-48 object-cover mb-4"
                   width={800}
