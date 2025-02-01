@@ -39,7 +39,8 @@ export const About = () => {
                   width={800}
                   height={192}
                 />
-                <h3 className="text-xl font-light mb-2">丁寧な手仕事</h3>
+                <h3 className="text-xl font-light">丁寧な手仕事</h3>
+                <p className="text-gray-500 mb-2">work</p>
                 <p className="text-gray-600">
                   熟練の職人による手作業で、一点一点心を込めて制作しています。
                 </p>
@@ -62,7 +63,8 @@ export const About = () => {
                   width={800}
                   height={192}
                 />
-                <h3 className="text-xl font-light mb-2">厳選素材</h3>
+                <h3 className="text-xl font-light">厳選素材</h3>
+                <p className="text-gray-500 mb-2">material</p>
                 <p className="text-gray-600">
                   自然素材にこだわり、環境に優しい材料を使用しています。
                 </p>
@@ -85,7 +87,8 @@ export const About = () => {
                   width={800}
                   height={192}
                 />
-                <h3 className="text-xl font-light mb-2">デザイン</h3>
+                <h3 className="text-xl font-light">デザイン</h3>
+                <p className="text-gray-500 mb-2">design</p>
                 <p className="text-gray-600">
                   伝統と現代を融合させた、シンプルで美しいデザインを追求しています。
                 </p>
@@ -96,4 +99,4 @@ export const About = () => {
       </div>
     </section>
   );
-}
+};
